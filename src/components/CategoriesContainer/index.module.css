@@ -1,0 +1,8 @@
+.container {
+	display: grid;
+	/* Создаем сетку с 4 колонками равной ширины */
+	grid-template-columns: repeat(4, 1fr);
+	/* Задаем промежуток между элементами сетки */
+	gap: 3px;
+  }
+  

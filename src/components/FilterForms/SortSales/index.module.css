@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  /* Флекс-контейнер для размещения элементов горизонтально */
+  align-items: center;
+  /* Выравнивание элементов по вертикали по центру */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  /* Устанавливает размер шрифта и жирность текста заголовка */
+}
+
+.price {
+  display: inline-flex;
+  /* Размещение элементов внутри блока горизонтально */
+  align-items: center;
+  /* Выравнивание элементов по вертикали по центру */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  gap: 10px;
+  /* Зазор между элементами */
+}
+
+.price input {
+  width: 103px;
+  height: 42px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 20px;
+  /* Стилизация ввода для ценового диапазона */
+}
+
+.price button {
+  display: none;
+  /* Скрытие кнопки фильтрации */
+}
+
+.sorted {
+  display: inline-flex;
+  /* Размещение элементов внутри блока горизонтально */
+  align-items: center;
+  /* Выравнивание элементов по вертикали по центру */
+  margin-left: 100px;
+  gap: 30px;
+  /* Зазор между элементами */
+}
+
+.sorted select {
+  width: 219px;
+  height: 40px;
+  border-radius: 5px;
+  /* Стилизация выпадающего списка для сортировки */
+}

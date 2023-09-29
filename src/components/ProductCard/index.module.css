@@ -1,0 +1,99 @@
+/* .card_item {
+  position: relative;
+}
+
+/* Показываем кнопку "Add to Cart" при наведении на карточку продукта */
+.card_item:hover .add_btn {
+  visibility: visible;
+}
+
+/* Стили для блока, содержащего изображение продукта */
+.card {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для изображения продукта */
+.card img {
+  border-radius: 5%;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+  border: 1px solid;
+}
+
+/* Стили для блока с информацией о цене и скидке */
+.price_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Стили для обычной цены продукта */
+.price_info p:nth-child(1) {
+  text-align: center;
+  margin: 4px 0;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 4px;
+}
+
+/* Стили для скидочной цены продукта */
+.price_info p:nth-child(2) {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: red;
+}
+
+/* Стили для последнего абзаца (вероятно, описания продукта) */
+.card p:last-child {
+  text-align: center;
+  margin: 4px 0;
+}
+
+/* Стили для второго абзаца, который может использоваться для чего-либо еще */
+.card p:nth-child(2) {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Стили для кнопки "Add to Cart" */
+.add_btn {
+  visibility: hidden;
+  cursor: pointer;
+  background-color: rgb(247, 244, 159);
+  color: rgb(1, 107, 1);
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-weight: 600;
+}
+
+/* Показываем кнопку "Add to Cart" при наведении на карточку продукта */
+.card_item:hover .add_btn {
+  visibility: visible;
+}
+
+/* Стили для перечеркнутой цены */
+.discounted-price {
+  text-decoration: line-through; /* Перечеркивание текста */
+  color: #e8a7a7; /* Цвет для перечеркнутой цены */
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 40px;
+  letter-spacing: 0.9px;
+}
+
+/* Стили для названия продукта */
+.title {
+  text-align: center;
+  font-weight: 800;
+}

@@ -1,0 +1,112 @@
+ .card {
+    border: 2px solid rgb(255, 255, 255);
+    width: 824px;
+    padding: 15px;
+    margin: 80px 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    /* align-items: center; */
+}
+
+/* Карточка товара */
+
+.discr_cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 300px;
+}
+
+/* Контейнер для описания товара */
+
+.inc_dic {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+/* Контейнер для кнопок увеличения и уменьшения количества товара */
+
+.inc_dic p {
+    font-size: 24px;
+}
+
+/* Текст с количеством товара */
+
+.decr_btn {
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin: 0 5px;
+    font-size: 40px;
+}
+
+/* Кнопка уменьшения количества товара */
+
+.incr_btn {
+    color: black;
+    background-color: rgba(245, 243, 243, 0);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    margin: 0 5px;
+    font-size: 40px;
+}
+
+/* Кнопка увеличения количества товара */
+
+.card img {
+    height:  200px;
+    width: 200px;
+    border-radius: 5%;
+    object-fit: contain;
+}
+
+/* Изображение товара */
+
+.price_dis {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+/* Контейнер для цен */
+
+.price_dis p:first-child {
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+/* Основная цена товара */
+
+.price_dis p:nth-child(2) {
+    text-decoration: line-through; /* Перечеркивание текста */
+    color: #ffffff; /* Цвет для перечеркнутой цены (по вашему выбору) */
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 2px;
+}
+
+/* Цена со скидкой */
+
+.kreuz {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
+
+/* Кнопка удаления товара */
+ 

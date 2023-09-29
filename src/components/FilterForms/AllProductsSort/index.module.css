@@ -1,0 +1,66 @@
+.container {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	/* Выравнивание контейнера по центру по вертикали и горизонтали */
+  }
+  
+  .title {
+	font-size: 30px;
+	font-weight: 600;
+	/* Стили для заголовков */
+  }
+  
+  .price {
+	display: inline-flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	gap: 10px;
+	/* Выравнивание элементов фильтра по цене в строку с отступами и промежутками */
+  }
+  
+  .price input {
+	width: 103px;
+	height: 42px;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-left: 20px;
+	/* Стили для инпутов в фильтре по цене */
+  }
+  
+  .price button {
+	display: none;
+	/* Скрытие кнопки в фильтре по цене (не используется) */
+  }
+  
+  .discount {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 100px;
+	gap: 30px;
+	/* Выравнивание элементов фильтра по скидкам в строку с отступами и промежутками */
+  }
+  
+  .discount input[type="checkbox"] {
+	width: 22px;
+	height: 22px;
+	/* Стили для чекбокса фильтра по скидкам */
+  }
+  
+  .sorted {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 100px;
+	gap: 30px;
+	/* Выравнивание элементов сортировки в строку с отступами и промежутками */
+  }
+  
+  .sorted select {
+	width: 219px;
+	height: 40px;
+	border-radius: 5px;
+	/* Стили для выпадающего списка сортировки */
+  }
+  
