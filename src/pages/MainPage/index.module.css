@@ -1,151 +1,177 @@
-/* Стили для секции с распродажей */
-.sale_container {
-    margin-top: 77px; /* Отступ сверху */
-    height: 600px;
-    width: 100%;
-    display: flex;
-    padding-left: 400px; /* Отступ слева */
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black; /* Граничная линия */
-    background-color: #a8e8f0; /* Цвет фона */
-  }
+.sale_container{
+  margin-top: 77px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  padding-left: 450px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #A1E2EB;
+  ;
+
+}
+
+
+.sale_btn {    
+  cursor: pointer;
+  background-color: white;
+  color: black;   
+  border-radius: 4px;     
+  font-size: 25px;
+  font-weight: 700;
+  /* width: fit-content; */
+  padding: 25px 50px;    
+ 
+}
+
+.text {   
+ color: white;
+ font-size: 80px;
+ font-weight: 700; 
+ margin-left: 40px;  
+ margin-right: 1200px;
+ margin-bottom: 50px;
+}
+
+
+.bush {
+margin: -70px 0px -20px 0px;  
+
+}
+
+/* ----------------------- */
+/* Стили для секции с каталогом */
+.catalog_container {
+  margin: 40px 10px;
+  color: rgb(0, 0, 0);
+font-size: 20px;
   
-  /* Стили для кнопки "Sale" */
-  .sale_btn {
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: 700;
-    padding: 25px 50px; /* Внутренний отступ */
-  }
+ 
+}
+
+.btn_container{
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-left: 55px;
   
-  /* Стили для текста внутри секции "Sale" */
-  .text {
-    color: white;
-    font-size: 80px;
-    font-weight: 700;
-    margin-left: 40px;
-    margin-right: 370px;
-    margin-bottom: 50px;
-  }
+}
+
+.btn_cat{
+  width: 320px;
+  height: 55px;
+  background-size: cover;
+  border: none;
+color: rgb(39, 36, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+font-size: 35px;
+  letter-spacing: -1.9px;
+margin-left: 30px;
+/* text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black; */
+}
+
+
+/* ------------------------ */
+
+/* Стили для секции с гномом и скидкой */
+.dwarf_wrapper{
+  height: 555px;
+  width: 95%;
+  margin-left: 30px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-color: rgb(5, 225, 5);
   
-  /* ----------------------- */
-  /* Стили для секции с каталогом */
-  .catalog_container {
-    margin: 40px 10px; /* Внешний отступ сверху и снизу, внутренний отступ слева и справа */
-    color: rgb(0, 0, 0); /* Цвет текста */
-    font-size: 20px; /* Размер шрифта */
-  }
+}
+.discount_descr {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.discount_descr  h1{
+  padding-right: 200px;
+  margin-top: 50px;   
+  color: white;
+  font-size: 90px; 
+  margin-bottom: -10px;   
+}
+
+.discount_descr h2{
+  margin: 10px;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: white;
+  letter-spacing: -3.5px;
+}
+
+
+.error_msg {
+  color: rgb(0, 0, 0);
+font-size: 30px;
+}
+
+.phone_num_inp{
+  width: 473px;
+  height: 85px;
+  border: none;
+  border-radius: 4px;  
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-size: 28px;
+ 
+}
+
+.phone_num_inp::placeholder{
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 50px;
+  font-family: cursive;
+}
+.discount_btn{
+  width: 473px;
+  height: 75px;
+  font-size: 35px;
+  font-weight: 473;
+  color: white;
+  font-family: cursive;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2.4px solid white;
+  border-radius: 4px;
+margin-bottom: 30px;
+}
+
+/* ------------------------------ */
+
+/* sale_container */
+.product_container{
+  width: 320px;
   
-  /* Стили для контейнера с кнопкой "All categories" */
-  .btn_container {
-    display: flex;
-    gap: 300px; /* Расстояние между элементами */
-    align-items: center;
-    padding-bottom: 30px; /* Внутренний отступ снизу */
-    margin-left: 55px; /* Внутренний отступ слева */
-  }
-  
-  /* Стили для кнопки "All categories" */
-  .btn_cat {
-    width: 320px;
-    height: 55px;
-    background-size: cover;
-    border: none;
-    color: rgb(252, 252, 252); /* Цвет текста */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 40px;
-    letter-spacing: -1.9px; /* Межбуквенный интервал */
-  }
-  
-  /* ------------------------ */
-  /* Стили для секции с изображением гнома и скидкой */
-  .dwarf_wrapper {
-    height: 555px;
-    width: 95%;
-    margin-left: 1px; /* Внутренний отступ слева */
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-color: rgb(5, 225, 5); /* Цвет фона */
-  }
-  
-  /* Стили для блока с описанием скидки */
-  .discount_descr {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .discount_descr h1 {
-    padding-right: 200px; /* Внутренний отступ справа */
-    margin-top: 50px; /* Внешний отступ сверху */
-    color: white; /* Цвет текста */
-    font-size: 90px;
-    margin-bottom: -10px; /* Внешний отступ снизу */
-  }
-  
-  .discount_descr h2 {
-    margin: 10px;
-    text-transform: uppercase; /* Преобразование текста в верхний регистр */
-    font-size: 55px;
-    color: white;
-    letter-spacing: -3.5px; /* Межбуквенный интервал */
-  }
-  
-  /* Стили для поля ввода номера телефона */
-  .phone_num_inp {
-    width: 473px;
-    height: 85px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-  }
-  
-  .phone_num_inp::placeholder {
-    font-size: 25px;
-    font-weight: 600;
-    padding-left: 50px;
-    font-family: cursive;
-  }
-  
-  /* Стили для кнопки "Get a discount" */
-  .discount_btn {
-    width: 473px;
-    height: 75px;
-    font-size: 35px;
-    font-weight: 473;
-    color: white;
-    font-family: cursive;
-    text-transform: uppercase; /* Преобразование текста в верхний регистр */
-    background-color: transparent;
-    border: 2.4px solid white;
-    border-radius: 5px;
-    margin-bottom: 30px; /* Внешний отступ снизу */
-  }
-  
-  /* ------------------------------ */
-  /* Стили для контейнера с продуктами на распродаже */
-  .product_container {
-    width: 320px;
-  }
-  
-  /* Стили для секции "Sale" */
-  .gen_sale_container {
-    margin: 50px 0 0 30px; /* Внешний отступ сверху, внутренний отступ слева */
-  }
-  
-  .gen_sale_container h3 {
-    color: #575959; /* Цвет текста */
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px; /* Внешний отступ снизу */
-  }
-  
+}
+
+.gen_sale_container{
+ margin: 50px 0 0 30px; 
+}
+
+.gen_sale_container h3{
+  color: #575959;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.image img{
+position: absolute;
+top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

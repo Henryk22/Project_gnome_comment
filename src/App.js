@@ -15,10 +15,7 @@ import { useEffect } from 'react';
 import { getAllProducts } from './request/products_req';
 import AllSales from './pages/AllSales';
 
- 
-
 function App() {
-
   
   const dispatch = useDispatch();
 
@@ -26,7 +23,6 @@ function App() {
     dispatch(getAllCategories) 
     dispatch(getAllProducts)
   }, [])
-
   
   return (
     <div className="app_container">

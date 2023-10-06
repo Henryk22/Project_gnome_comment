@@ -1,52 +1,138 @@
+/* Стили для контейнера навигационного меню */
 .nav_menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 30px;
     padding: 40px;
     font-size: 16px;
     width: 100%;
     height: 72px;
-}
-
-.nav_menu a {
+  }
+  
+  /* Стили для ссылок в навигационном меню */
+  .nav_menu a {
     text-decoration: none;
     color: black;
-}
-
-/* Стили для первой ссылки */
-.nav_menu :first-child {
+   
+  }
+  
+  /* Стили для первой ссылки в навигационном меню */
+  .nav_menu :first-child {
     margin-left: 0px;
-
-}
-
-/* Стили для второй ссылки (Каталог) */
-.nav_menu :nth-child(2) {
+  }
+  
+  /* Стили для второй ссылки в навигационном меню */
+  .nav_menu :nth-child(2) {
     background-color: #339933;
     color: white;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 14px;
     width: 125px;
     height: 49px;
     margin-left: 20px;
+  }
+  
+  /* Стили для третьей ссылки в навигационном меню */
+  .nav_menu :nth-child(3) {
+    margin-left: 510px;
+  }
+  
+  /* Стили для четвёртой ссылки в навигационном меню */
+  .nav_menu :nth-child(4) {
+    margin-left: 40px;
+  }
+  
+  /* Стили для пятой ссылки в навигационном меню */
+  .nav_menu :nth-child(5) {
+    margin-left: 40px;
+  }
+  
+  /* Стили для шестой ссылки в навигационном меню */
+  .nav_menu :nth-child(6) {
+    display: flex;
+    margin-left: 90px;
+  }
+  
+  /* Стили для спана в навигационном меню */
+  .nav_menu span {
+    width: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #339933;
+    color: white;
+    border-radius: 4%;
+    padding-top: 6px;
+    margin-left: -25px;
+  }
+  
+
+
+/* .nav_menu {
+    display: flex;
+	justify-content:center;
+	align-items: center;  
+	gap: 30px;
+	padding: 40px;       
+	font-size: 16px;   
+	width: 100%;
+	height: 72px;
+	
+  }
+  
+  .nav_menu a {
+	text-decoration: none;
+	color: black;
+   
+  }
+  
+  .nav_menu :first-child {            
+	margin-left: 0px;
+  }
+  
+  
+  .nav_menu :nth-child(2) {
+	background-color: #339933;
+	color: white;
+	text-align: center;
+	border-radius: 4px;
+	padding: 14px ;
+	width: 125px;   
+	height: 49px; 
+	margin-left: 20px;   
+	  
+  }
+  
+  .nav_menu :nth-child(3) {
+	margin-left:510px;
+  }
+  
+  .nav_menu :nth-child(4) {
+	margin-left:40px;
+  }
+
+  .nav_menu :nth-child(5) {
+    margin-left:40px;
 }
 
-/* Стили для третьей ссылки (Главная) */
-.nav_menu :nth-child(3) {
-    margin-left: 380px;
-	/* font-size: 24px; */
-}
-
-/* Стили для четвертой ссылки (Все товары) */
-.nav_menu :nth-child(4) {
-    margin-left: 10px;
-	/* font-size: 24px; */
-}
-
-/* Стили для последней ссылки (корзина) */
-.nav_menu :last-child {
-    margin-left: 160px;
+.nav_menu :nth-child(6) {
+    display: flex;  
+    
+    margin-left: 90px;
     
 }
+  
+ 
 
+
+  .nav_menu span {      
+	width: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color:  #339933;
+    color: white;   
+    border-radius: 4%; 
+    padding-top: 6px;
+    margin-left: -25px;  
+} */

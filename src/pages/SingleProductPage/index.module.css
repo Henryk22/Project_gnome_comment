@@ -10,10 +10,10 @@
 
 /* Стили для изображения продукта */
 .product_item img {
-  height: 300px; /* Высота изображения */
-  width: 300px; /* Ширина изображения */
+  height: 300px; 
+  width: 300px; 
   object-fit: contain; /* Распределение изображения внутри контейнера */
-  border-radius: 5%; /* Закругленные углы изображения */
+  border-radius: 5%; 
   border: 2px solid; 
 }
 

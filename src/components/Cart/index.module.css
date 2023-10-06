@@ -1,49 +1,49 @@
-/* Общий контейнер корзины */
+/* Стили для контейнера корзины */
 .cart_cont {
 	position: relative;
   }
   
-  /* Заголовок корзины */
+  /* Стили для заголовка корзины */
   .title_cart {
 	margin: 30px;
   }
   
-  /* Кнопка для очистки корзины */
+  /* Стили для кнопки очистки корзины */
   .clear_btn {
 	background-color: #339933;
 	color: white;
 	margin: 30px;
 	padding: 10px;
 	width: 200px;
-	border-radius: 5px;
+	border-radius: 4px;
 	cursor: pointer;
 	text-align: center;
 	font-size: 24px;
   }
   
-  /* Сообщение о пустой корзине */
+  /* Стили для сообщения об пустой корзине */
   .empty {
 	margin-left: 30px;
   }
   
-  /* Форма для заказа */
+  /* Стили для контейнера заказа */
   .order {
 	position: absolute;
 	right: 36px;
 	top: 0px;
 	width: 496px;
 	height: 393px;
-	border: 2px solid black;
-	border-radius: 5px;
+	border: 1px solid black;
+	border-radius: 4px;
   }
   
-  /* Заголовок формы заказа */
+  /* Стили для заголовка заказа */
   .order h2 {
 	padding: 20px 0 0 25px;
 	font-size: 28px;
   }
   
-  /* Заголовок корзины (с тенью) */
+  /* Стили для заголовка корзины */
   .cart_cont h3 {
 	padding: 20px 0 0 25px;
 	font-size: 50px;
@@ -51,34 +51,41 @@
 	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
   }
   
-  /* Параграфы в форме заказа */
+  /* Стили для абзацев в заказе */
   .order p {
 	padding: 50px 0 0 25px;
 	font-size: 30px;
 	word-spacing: 280px;
   }
   
-  /* Контейнер для ввода номера телефона и кнопки заказа */
+  /* Стили для контейнера для номера телефона и кнопки ввода заказа */
   .pfon_ord {
 	display: flex;
 	flex-direction: column;
   }
   
-  /* Поле ввода номера телефона */
+  /* Стили для абзацев в заказе */
+  .order p {
+	padding: 50px 0 0 25px;
+	font-size: 24px;
+	word-spacing: 10px;
+  }
+  
+  /* Стили для поля ввода номера телефона */
   .order input {
 	border: 1px solid black;
-	border-radius: 20px;
+	border-radius: 4px;
 	width: 446px;
 	height: 73px;
 	margin: 70px 25px 25px 20px;
 	padding-left: 20px;
-	font-size: 18px;
+	font-size: 25px;
   }
   
-  /* Кнопка заказа */
+  /* Стили для кнопки оформления заказа */
   .order button {
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 4px;
 	width: 446px;
 	height: 73px;
 	background-color: #339933;
@@ -88,4 +95,101 @@
 	cursor: pointer;
   }
   
- 
+
+
+
+
+/* .cart_cont { 
+	position: relative;
+  }
+  
+  .title_cart {
+	margin: 30px;
+  }
+  
+  .clear_btn {
+	background-color: #339933;
+	color: white;
+	margin: 30px;
+	padding: 10px;
+	width: 200px;
+	border-radius: 4px;   
+	cursor: pointer;
+	text-align: center;
+	font-size: 24px;
+   }
+  
+  .empty {
+	margin-left: 30px;
+  }
+  
+  .order { 
+   position: absolute;
+   right: 36px;
+	top: 0px;  
+	width: 496px;
+	height: 393px;
+	border: 1px solid black;
+	border-radius: 4px;
+	
+	}
+  
+	.order h2 {
+	 padding: 20px 0 0 25px;
+	  font-size: 28px;
+	}
+
+	.cart_cont h3 {
+		padding: 20px 0 0 25px;
+		 font-size: 50px;
+		 color: rgb(255, 255, 255);
+		 text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+		
+		
+	   }
+  
+	.order p {
+	  padding: 50px 0 0 25px;
+	  font-size: 30px;
+	  word-spacing: 280px;
+	}
+	  
+	.pfon_ord {
+	  display: flex;
+	  flex-direction: column;
+	}
+
+
+	  .order p {
+    padding: 50px 0 0 25px;
+    font-size: 24px;
+    word-spacing:10px;
+  }
+	  
+	
+	
+	.order input{    
+	border: 1px solid black;
+	border-radius: 4px; 
+	width: 446px; 
+	height: 73px;
+	margin: 70px 25px 25px 20px;
+	padding-left: 20px;
+	font-size: 25px;
+	}
+  
+	.order button {
+	  border: 1px solid black;
+	  border-radius: 4px; 
+	  width: 446px; 
+	  height: 73px;
+	  background-color: #339933;
+	  color: white;
+	  margin-left: 25px;      
+	  font-size: 28px;
+	  cursor: pointer;
+	}
+  
+	
+  
+	 */

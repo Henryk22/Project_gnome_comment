@@ -46,7 +46,7 @@
 	color: #dff01a;
 	margin-top: 25px;
 	font-weight: 600;
-	font-size: 70px;
+	font-size: 55px;
   }
   
   /* Стили для адреса */
@@ -60,7 +60,7 @@
   .hours {
 	color: #000;
 	margin-top: 20px;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: 500; 
   }
   
@@ -114,112 +114,3 @@
   }
   
 
-
-/* .google {
-	background-color: rgb(187, 187, 187);
-	padding: 4px 10px;
-	color: white;
-	font-size: 25px;
-  }
-
-  .h5{
-	height: 40px;
-		display: flex;
-		justify-content: center;
-		gap: 20px;
-		align-items: center;
-		background-color: #06d945;
-		position: fixed;
-		width: 100%;
-		left: 0;
-		bottom: 0;
-	} 
-	
-  .wrapper{
-	color: #ffffff;
-	margin: 90px 40px;
-	width: 100%;
-  }
-  
-  .text_container{
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  h1{
-	color: #020202;
-	font-size: 40px;
-	font-weight: 700;
-  margin: 30px auto;
-  }
-  
-  .number{
-	color: #dff01a;
-	margin-top: 25px;
-	font-weight: 600;
-	font-size: 70px;
-  }
-  
-  .strasse{
-  color: #000;
-	font-size: 40px;
-	font-weight: 600;
-  }
-  
-  
-  .hours{
-  color: #000;
-	margin-top: 20px;
-	font-size: 18px;
-	font-weight: 500; 
-  }
-  
-  .time{
-  color: #000;
-	font-size: 24px;
-	font-weight: 600;
-  }
-  
-  .icon{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-  margin: 20px;
-  }
-  
-  
-  
-  .content_cont img{
-	width: 70px;
-	height: 58px;
-	margin-bottom: 8px;
-  }
-  
-  .social_media_content{
-	display: flex;
-	gap: 35px;
-	margin-top: 33px;
-  }
-  
-  .content_cont p{
-	font-size: 15px;
-	font-weight: 600;
-  }
-  
-  .map{
-	margin-top: 50px;
-	width: 100%;
-  }
-  
-  .number a {
-	text-decoration: none;
-	color: black;
-	font-weight: medium;
-	
-  }
-  
- 
- 
- 
-  */

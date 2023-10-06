@@ -1,9 +1,8 @@
-/* Сброс стилей для всех элементов на странице */
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif; /* Установка шрифта */
+	font-family: 'Montserrat', sans-serif; 
   }
   
   /* Стили для корневого элемента приложения */
@@ -20,7 +19,7 @@
   
   /* Стили для всего тела страницы */
   body {
-	background-color: #F5F5DC; /* Задний фон страницы  */
+	background-color: #F5F5DC; 
   }
   
 
